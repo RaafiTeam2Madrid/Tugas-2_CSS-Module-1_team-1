@@ -1,0 +1,72 @@
+body {
+    font-family: system-ui, sans-serif;
+    background: #f0f2f5;
+}
+
+/* wrapper card */
+.wrapper {
+    max-width: 1200px;
+    margin: 40px auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff;
+    width: 250px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+.card h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #2c3e50;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: inline-block;
+    background: gray;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #4a4a4a;
+}
+
+/* SECTION FOTO */
+.judul-section {
+    text-align: center;
+    margin-top: 50px;
+    color: #2c3e50;
+}
+
+/* foto grid */
+.foto-grid {
+    max-width: 1100px;
+    margin: 20px auto 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.foto-grid img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
